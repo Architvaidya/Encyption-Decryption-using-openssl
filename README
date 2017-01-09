@@ -1,0 +1,13 @@
+Name: Archit Vaidya
+email: avaidya4@binghamton.edu
+
+Ensure that openssl is installed on the machine
+
+Steps to compile:
+
+1)Navigate to folder 'p2-avaidya4'
+2)type g++ -I<path to include file> -L<path to lib file> main.cc fscrypt.cc -lcrypto -o ./a.out for fscrypt.cc
+3)type g++ -I<path to include file> -L<path to lib file> main.cc fscrypt2.cc -lcrypto -o ./a.out for fscrypt2.cc
+
+
+If assertion failure is observed, please try to test with main file provided.
